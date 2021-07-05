@@ -2,24 +2,23 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
-section{
+.order-area{
     display: flex;
 }
-.top-back{
-
+.about-area{
+    display: flex;
 }
 .first-half-width{
     width: 40%;
     margin-left: 5%;
     padding-left: 2%;
 }
-.first-half-width h1:first-child{
-    padding-top: 60px;
-}
 .first-half-width h1{
     font-size: 45px;
     margin: 0 auto;
+}
+#order-content{
+    padding-top: 10%;
 }
 .first-half-width h1 span{
     color: orange;
@@ -35,4 +34,44 @@ section{
     color: whitesmoke;
     font-size: 12px;
     margin-top: 20px;
+}
+.about-area{
+    background-image: url('../imgs/about-me-back.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-area img{
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 19%;
+}
+#about-content{
+    padding-top: 9%;
+}
+#about-content h1{
+    font-size: 30px;
+}
+#about-content p{
+    padding-bottom: 45px;
+}
+.recepie-container{
+    display: flex;
+    margin-bottom: 50px;
+}
+.recepie-item{
+    width: 25%;
+    margin-left: 4.4%;
+    padding: 15px;
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 20px;
+}
+
+.recepie-item img{
+    width: 100%;
+}
+.recepie-top{
+    text-align: center;
+    padding: 30px 236px;
 }
